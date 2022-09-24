@@ -35,6 +35,6 @@ MonoBehaviour:
   MaxSpeed: 11
   PlayerSpeed: 10
   MaxFoodInStack: 5
-  DelayForFood: 1.5
+  DelayForFood: 1
   MaxHealth: 10
-  LossHealthPerSecond: 0.8
+  LossHealthPerSecond: 0.7
