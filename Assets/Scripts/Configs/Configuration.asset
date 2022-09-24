@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b68b679ba125f43bb542a738a53e84, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier: 
+  FoodPrefabs:
+  - _gameObject: {fileID: 7850283073620732250, guid: 358659ba08ab25a42946d6f56774b781,
+      type: 3}
+    _recoverableHealth: 1
+  - _gameObject: {fileID: 6354388199577495375, guid: 8d70ba19d72486649b1b39e6eb38f877,
+      type: 3}
+    _recoverableHealth: -2
+  - _gameObject: {fileID: 3713871074538707908, guid: 61504eec14172494cbdb0c0ed01daf26,
+      type: 3}
+    _recoverableHealth: 3
+  - _gameObject: {fileID: 7672150944057809533, guid: a9d3138ec5f65184fbb1d52355bbfc8c,
+      type: 3}
+    _recoverableHealth: 1.5
+  - _gameObject: {fileID: 1877842236560440649, guid: b996b65147ce5cf4087e9e540d1139d8,
+      type: 3}
+    _recoverableHealth: -3
+  SpawnDelay: 1.25
+  SpawnAreaTopRightCorner: {x: -13, y: 0.01, z: -13}
+  SpawnAreaBottomLeftCorner: {x: 13, y: 0.01, z: 13}
+  MinSpeed: 6
+  MaxSpeed: 11
+  PlayerSpeed: 10
+  MaxFoodInStack: 5
+  DelayForFood: 1.5
+  MaxHealth: 10
+  LossHealthPerSecond: 0.8
